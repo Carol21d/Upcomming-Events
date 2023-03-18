@@ -26,7 +26,16 @@ Un colectivo de desarrollo de software quiere crear una aplicación web para ges
  
  ![Captura-details-admin](https://user-images.githubusercontent.com/116892294/225849579-c46bf999-6ba0-407c-bed5-c259778b8a78.PNG)
  
- ![Captura-create-event-admin](https://user-images.githubusercontent.com/116892294/225849658-5ac28c58-a2ce-4c4b-94cd-49db8cfdaa30.PNG)
+ ![Captura-crea![user-flow-upcommings-events (1)](https://user-images.githubusercontent.com/116892294/226138571-78c32fea-52fd-465e-a873-8e94b8b64217.png)
+te-event-admin](https://user-images.githubusercontent.com/116892294/225849658-5ac28c58-a2ce-4c4b-94cd-49db8cfdaa30.PNG)
+ 
+ ## User Flow:
+ 
+ ![user-flow-upcommings-events (1)](https://user-images.githubusercontent.com/116892294/226138619-3d753219-bc0b-4b0e-be09-7c04a1bc8a30.png)
+ 
+ ## Diagrama de base de datos:
+ 
+ ![Diagrama-base-de-datos-events (1)](https://user-images.githubusercontent.com/116892294/226138674-c04397e9-2bf3-4844-ae75-30b189e05c76.png)
 
 ### Instalación:
  - cd src/main
