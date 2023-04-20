@@ -24,7 +24,8 @@ const logOut = async ()=>{
       <p>Home</p>
       <p @click="logOut()">Logout</p>
     </nav>
-    <h1>Buy Amazing <span> Tickets </span> at wholesale prices.</h1>
+     <h1>Buy Amazing Tickets  at wholesale prices.</h1> 
+   
   </header>
 </template>
 <style lang="scss" scoped>

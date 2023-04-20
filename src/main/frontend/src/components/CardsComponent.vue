@@ -11,11 +11,13 @@ const props = defineProps({
     type: Object
   }
 })
+
 const emits = defineEmits(['addEvent'])
 console.log(props.event.actual_participants);
 const emitAddEvent = () => {
   emits('addEvent', props.event.id)
 }
+
 const disableCard = computed(()=>{
   return (props.event.actual_participants == props.event.number_participants)? true : false;
 })

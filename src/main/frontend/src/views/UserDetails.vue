@@ -12,11 +12,11 @@ const useloginstore = useLoginStore();
 const eventsstore = eventsStore();
 const id = route.params.id
 
-onBeforeMount(async ()=>{
+onBeforeMount(async () => {
     eventsstore.getOneEvent(id)
 })
 
-const eventTemporal ={
+const eventTemporal = {
     title: 'hola',
     date_hour: '10-10-2020',
     number_participants: 20,
@@ -26,33 +26,26 @@ const eventTemporal ={
 </script>
 
 <template>
-
-<div class="container">
-    <CardsComponent
-    :event="eventsstore.oneEvent"
-    />
-    <DetailsForm 
-    :view="'edit'"
-    />
-</div>
-
+    <div class="container">
+        <CardsComponent :event="eventsstore.oneEvent" />
+        <DetailsForm :view="'edit'" />
+    </div>
 </template>
 
 
 
 <style lang="scss" scoped>
-
-.container{
+.container {
     flex-direction: column;
     display: flex;
     align-items: center;
 }
+
 @media (min-width: 1024px) {
-    .container{
+    .container {
         flex-direction: row;
         justify-content: center;
         margin-block: 4%;
     }
 }
-
 </style>
